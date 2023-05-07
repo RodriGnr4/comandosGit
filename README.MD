@@ -1,16 +1,18 @@
 # comandos utiles de git
 
 1. git init (inicia repositorio)
-2. git add <archivo>
-3. git reset <archivo>
-4. git commit -m
-5. git checkout -- .
-6. git log
-7. git commit --amend
-8. git checkout -b nombreRama
-9. git checkout master
-10. git merge
-11. git branch -d nombreRama
-12. git branch -M main
-13. git push -u origin main
-14. git commit -am
+2. git add <archivo> (seguimiento de archivo)
+3. git reset <archivo> (sacar archivo de staged)
+4. git commit -m (comprometer archivo)
+5. git checkout -- . (reconstruir archivos del ultimo commit)
+6. git log --oneline(ver los commits realizados)
+7. git commit --amend (arreglar nombre de commmit)
+8. git checkout -b nombreRama (crear una nueva rama)
+9. git checkout master (cambiarse de ramas)
+10. git merge nombreDeRama (tomar cambios de esta rama)
+11. git branch -d nombreRama (borrar rama)
+12. git branch -M main (remombrar la rama master)
+13. git push -u origin main (desplegar a la rama master los cambios)
+14. git commit -am (stagear y realizar el commit al mismo tiempo)
+15. git restore nombreArchivo (restaurar archivo borrado)
+16. git status -s (stado de los archivos)

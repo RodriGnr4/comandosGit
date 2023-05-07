@@ -13,3 +13,4 @@
 11. git branch -d nombreRama
 12. git branch -M main
 13. git push -u origin main
+14. git commit -am
